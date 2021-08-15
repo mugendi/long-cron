@@ -1,0 +1,23 @@
+{
+  "name": "long-cron",
+  "version": "1.0.0",
+  "description": "A cron runner for long running processes that implements a simple strategy to prevent running the same job multiple times",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cron",
+    "long",
+    "jobs",
+    "runner"
+  ],
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "cron-parser": "^3.5.0",
+    "human-to-cron": "^0.3.1",
+    "ioredis": "^4.27.7"
+  }
+}
